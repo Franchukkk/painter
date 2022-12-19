@@ -526,6 +526,7 @@ main {
 }
 
 .scroll {
+    padding-top: 50rem;
     overflow-x: scroll;
     margin-bottom: 180rem;
 }
