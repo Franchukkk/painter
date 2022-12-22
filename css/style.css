@@ -107,6 +107,10 @@ body {
     left: -16rem;
 }
 
+.sociality {
+    margin-left: 7rem;
+}
+
 .sociality a {
     display: block;
     background-image: url(../images/sprite.png);
@@ -368,37 +372,24 @@ main {
     z-index: 0;
 }
 
-.album-card:nth-child(2n) {
-    margin-right: 30px;
-}
 
 .album-card:nth-child(2n) .album-img3 {
-    background-position: -210px -55px;
+    background-position: -200px -42px;
 }
 
-.album-card:nth-child(3n) {
-    margin-right: 50px;
-}
 
 .album-card:nth-child(3n) .album-img3 {
-    background-position: -385px -25px;
-}
-
-.album-card:nth-child(4n) {
-    margin-right: 30px;
+    background-position: -375px -25px;
 }
 
 .album-card:nth-child(4n) .album-img3 {
-    background-position: -594px -75px;
+    background-position: -570px -55px;
 }
 
 .album-card:nth-child(5n) .album-img3 {
     background-position: -770px -128px;
 }
 
-.album-card:nth-child(5n) {
-    margin-right: 100px;
-}
 
 .album-img1 {
     position: absolute;
@@ -413,7 +404,7 @@ main {
 .album-img2 {
     position: absolute;
     width: 135rem;
-    margin-left: 4rem;  
+    margin-left: 4rem;
     min-height: 328rem;
     border-radius: 20px;
     background-color: #e77d7d;
@@ -421,31 +412,27 @@ main {
 }
 
 .album-img3 {
+    position: relative;
     background-image: url(../images/painting-woman.jpg);
-    position: absolute;
     width: 135rem;
     min-height: 328rem;
     border-radius: 20px;
     background-color: #000;
-    z-index: 2;
+    z-index: 5;
 }
 
-.album-card:nth-child(2n) {
+.album-card:first-child,
+.album-card:last-child{
+    margin-top: 80rem;
+}
+
+.album-card:nth-child(2n){
     margin-top: 32rem;
-}
-
-
-.album-card:first-child {
-    margin-top: 82rem;
 }
 
 
 .album-card:first-child .album-img3 {
     background-position: -65px -90px;
-}
-
-.album-card:last-child {
-    margin-top: 82rem;
 }
 
 .album-card:nth-child(2n) .album-img1,
@@ -678,7 +665,7 @@ option {
     transition: 0.5s;
 }
 
-.buy-buttons a:last-child:hover{
+.buy-buttons a:last-child:hover {
     background: #fff;
 }
 
@@ -871,6 +858,7 @@ a.tel:before {
     height: 14px;
     background-position: -17px 0;
     transition: 0.2s;
+    margin-left: 2px;
 }
 
 .second a:nth-child(3n)::before {
@@ -887,8 +875,9 @@ a.tel:before {
     position: absolute;
     width: 16px;
     height: 16px;
-    background-position: -43px 0;
+    background-position: -44px 0;
     transition: 0.2s;
+    margin: 0;
 }
 
 .second a:hover::before {
