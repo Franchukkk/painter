@@ -82,7 +82,7 @@ body {
     text-decoration: none;
 }
 
-.line1:before {
+.line1 {
     content: "";
     position: absolute;
     width: 3rem;
@@ -91,7 +91,7 @@ body {
     background-color: #f79b9b;
 }
 
-.line2::before {
+.line2 {
     content: "";
     position: absolute;
     width: 3rem;
@@ -113,36 +113,19 @@ body {
 
 .sociality a {
     display: block;
-    background-image: url(../images/sprite.png);
     margin-bottom: 15rem;
 }
 
 .sociality a {
-    width: 15rem;
+    width: 18rem;
     height: 15rem;
-    background-position: 0 0;
-    margin-left: 10rem;
     transition: 0.3s;
 }
 
-.sociality a:hover {
-    transform: scale(1.3);
-}
-
-
-.sociality a:nth-child(3n) {
-    background-position: -28px 0px;
-}
-
-.sociality a:nth-child(2n) {
-    width: 12px;
-    background-position: -15px 0px;
-}
-
-.sociality a:nth-child(4n) {
-    width: 16px;
-    height: 16px;
-    background-position: -44px 0px;
+.sociality .second {
+    position: relative;
+    left: -6rem;
+    top: 242rem;
 }
 
 .about {
@@ -238,8 +221,9 @@ h1:after {
 
 .girl-image {
     position: absolute;
-    max-width: 900rem;
-    min-height: 855rem;
+    width: 915rem;
+    min-height: 869rem;
+    background: url(../images/beautiful-girl-draws-a-picture-in-the-park_1150-4058.png) center;
     -webkit-mask-image: url(../images/mask-bg.svg);
     mask-image: url(../images/mask-bg.svg);
     -webkit-mask-size: cover;
@@ -422,11 +406,11 @@ main {
 }
 
 .album-card:first-child,
-.album-card:last-child{
+.album-card:last-child {
     margin-top: 80rem;
 }
 
-.album-card:nth-child(2n){
+.album-card:nth-child(2n) {
     margin-top: 32rem;
 }
 
@@ -543,7 +527,8 @@ h2.works {
 
 .girl-image2 {
     position: absolute;
-    max-width: 780rem;
+    background: url(../images/artist-painting.png) center;
+    width: 780rem;
     min-height: 600rem;
     -webkit-mask-image: url(../images/buy-poster.svg);
     mask-image: url(../images/buy-poster.svg);
@@ -635,43 +620,57 @@ option {
     transform: rotate(-45deg);
 }
 
+.buy-buttons {
+    display: flex;
+    width: 100%;
+    max-width: 700rem;
+}
+
 .buy-buttons a {
-    font-size: 16px;
+    display: inline-block;
+    font-size: 16rem;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.buy-buttons a:last-child {
+    display: inline-block;
+    font-size: 16rem;
     color: #000000;
     font-weight: 800;
     text-decoration: none;
     transition: 0.5s;
-}
-
-.buy-buttons a:first-child:hover {
-    background: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
-    border: 1px solid #e77d7d;
-}
-
-.buy-buttons a:first-child {
-    border-radius: 26rem;
-    background-color: #ffffff;
-    border: 1rem solid #000000;
-    padding: 15rem 40rem;
-    margin-right: 35rem;
-}
-
-.buy-buttons a:last-child {
-    border-radius: 26px;
+    padding: 16rem 54rem;
     background: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
     border: 1px solid #000000;
-    border: 1px solid #e77d7d;
-    padding: 15rem 54rem;
-    transition: 0.5s;
+    border-radius: 26rem;
 }
 
-.buy-buttons a:last-child:hover {
+.buy-buttons a:last-child:hover{
     background: #fff;
+}
+
+ a#appoint {
+    padding: 22px 82.5px;
+}
+
+.button1 a:first-child {
+    border-radius: 26rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 16rem 39.4rem;
+    margin-right: 34px;
+}
+
+.button1 a:first-child:hover {
+    background-image: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
 }
 
 .girl-image3 {
     position: absolute;
-    max-width: 785rem;
+    background: url(../images/peoples-painting.png);
+    width: 785rem;
     min-height: 600rem;
     top: 300px;
     -webkit-mask-image: url(../images/buy-poster.svg);
@@ -709,6 +708,8 @@ input.last:focus {
 .last-buy {
     text-align: left;
 }
+
+
 
 .bg-buy3 {
     position: absolute;
@@ -1130,4 +1131,42 @@ a.tel:before {
     overflow: hidden;
     background: url(../images/park.png) center;
     border-radius: 25rem;
+}
+
+@media screen and (max-width:1700px) {
+    .wrapper {
+        max-width: 1520rem;
+    }
+}
+
+@media screen and (max-width:1580px) {
+    .wrapper {
+        max-width: 1420rem;
+    }
+
+    .album {
+        width: 900rem;
+        margin-right: 100rem;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .wrapper {
+        max-width: 1360rem;
+    }
+
+    .album {
+        width: 1070rem;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .wrapper {
+        max-width: 1300rem;
+    }
+
+    .album {
+        width: 1290rem;
+        margin-right: 100rem;
+    }
 }
