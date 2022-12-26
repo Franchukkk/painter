@@ -25,7 +25,6 @@ body {
     position: relative;
 }
 
-
 .wrapper {
     max-width: 1620rem;
     margin: auto;
@@ -491,6 +490,7 @@ main {
     padding-top: 50rem;
     overflow-x: scroll;
     margin-bottom: 180rem;
+    margin-left: 8%;
 }
 
 .scroll::-webkit-scrollbar {
@@ -621,8 +621,8 @@ option {
 }
 
 .buy-buttons {
+    margin-left: 47.5%;
     display: flex;
-    width: 100%;
     max-width: 700rem;
 }
 
@@ -653,6 +653,7 @@ option {
 
  a#appoint {
     padding: 22px 82.5px;
+    border-radius: 31rem;
 }
 
 .button1 a:first-child {
@@ -1148,6 +1149,22 @@ a.tel:before {
         width: 900rem;
         margin-right: 100rem;
     }
+
+    .girl-image{
+        width: 715rem;
+        min-height: 669rem;
+        top: 200rem;
+
+    }
+
+    .bg1{
+        position: absolute;
+        background: url(../images/header-max-width-1580px-bg.svg) no-repeat center;
+        top: 190rem;
+        right: 30px;
+        width: 805rem;
+    min-height: 669rem;
+    }
 }
 
 @media screen and (max-width:1480px) {
@@ -1169,4 +1186,6 @@ a.tel:before {
         width: 1290rem;
         margin-right: 100rem;
     }
+
+
 }
