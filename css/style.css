@@ -490,7 +490,10 @@ main {
     padding-top: 50rem;
     overflow-x: scroll;
     margin-bottom: 180rem;
-    margin-left: 8%;
+}
+
+.slider-our-pictures {
+    padding-left: 8%;
 }
 
 .scroll::-webkit-scrollbar {
@@ -527,7 +530,7 @@ h2.works {
 
 .girl-image2 {
     position: absolute;
-    background: url(../images/artist-painting.png) center;
+    background: url(../images/artist-painting.png) center no-repeat;
     width: 780rem;
     min-height: 600rem;
     -webkit-mask-image: url(../images/buy-poster.svg);
@@ -647,11 +650,11 @@ option {
     border-radius: 26rem;
 }
 
-.buy-buttons a:last-child:hover{
+.buy-buttons a:last-child:hover {
     background: #fff;
 }
 
- a#appoint {
+a#appoint {
     padding: 22px 82.5px;
     border-radius: 31rem;
 }
@@ -670,7 +673,7 @@ option {
 
 .girl-image3 {
     position: absolute;
-    background: url(../images/peoples-painting.png);
+    background: url(../images/peoples-painting.png) center no-repeat;
     width: 785rem;
     min-height: 600rem;
     top: 300px;
@@ -1150,20 +1153,19 @@ a.tel:before {
         margin-right: 100rem;
     }
 
-    .girl-image{
+    .girl-image {
         width: 715rem;
         min-height: 669rem;
         top: 200rem;
-
     }
 
-    .bg1{
+    .bg1 {
         position: absolute;
         background: url(../images/header-max-width-1580px-bg.svg) no-repeat center;
         top: 190rem;
         right: 30px;
         width: 805rem;
-    min-height: 669rem;
+        min-height: 669rem;
     }
 }
 
@@ -1174,6 +1176,43 @@ a.tel:before {
 
     .album {
         width: 1070rem;
+    }
+
+    .girl-image3 {
+        width: 625rem;
+        min-height: 475rem;
+        right: 0;
+        top: 350rem;
+        background-position-x:-30px ;
+        right: 30rem;
+    }
+
+    .girl-image2 {
+        width: 625rem;
+        min-height: 475rem;
+    }
+
+    .bg-buy1{
+        background: url(../images/patyh.svg) no-repeat;
+    }
+
+    .bg-buy2{
+        background: url(../images/patyh1.svg) no-repeat;
+    }
+
+    .bg-buy3{
+        background: url(../images/patyh.svg) no-repeat;
+        right: 0px;
+        width: 670rem;
+        height: 400px;
+        top: 335px;
+    }
+
+    .bg-buy4{
+        background: url(../images/patyh1.svg) no-repeat;
+        right: 0;
+        width: 680rem;
+        top: 325rem;
     }
 }
 
