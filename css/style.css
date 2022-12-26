@@ -1210,9 +1210,9 @@ a.tel:before {
 
     .bg-buy4{
         background: url(../images/patyh1.svg) no-repeat;
-        right: 0;
+        right: 1px;
         width: 680rem;
-        top: 325rem;
+        top: 322rem;
     }
 }
 
