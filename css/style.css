@@ -620,7 +620,7 @@ option {
     transform: rotate(-45deg);
 }
 
-.buy-buttons {
+.buy-buttons:first-child {
     margin-left: 47.5%;
     display: flex;
     max-width: 700rem;
