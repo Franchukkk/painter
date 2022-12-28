@@ -222,7 +222,7 @@ h1:after {
     position: absolute;
     width: 915rem;
     min-height: 869rem;
-    background: url(../images/beautiful-girl-draws-a-picture-in-the-park_1150-4058.png) center;
+    background: url(../images/beautiful-girl-draws-a-picture-in-the-park_1150-4058.jpg) center;
     -webkit-mask-image: url(../images/mask-bg.svg);
     mask-image: url(../images/mask-bg.svg);
     -webkit-mask-size: cover;
@@ -464,7 +464,7 @@ main {
     width: 445rem;
     max-height: 715rem;
     overflow: hidden;
-    background: url(../images/tiger.png) center;
+    background: url(../images/tiger.jpg) center;
     border-radius: 25rem;
 }
 
@@ -476,7 +476,7 @@ main {
 .horror-picture {
     width: 445rem;
     max-height: 715rem;
-    background: url(../images/horror.png) center;
+    background: url(../images/horror.jpg) center;
     overflow: hidden;
     border-radius: 25rem;
 }
@@ -530,7 +530,7 @@ h2.works {
 
 .girl-image2 {
     position: absolute;
-    background: url(../images/artist-painting.png) center no-repeat;
+    background: url(../images/artist-painting.jpg) center no-repeat;
     width: 780rem;
     min-height: 600rem;
     -webkit-mask-image: url(../images/buy-poster.svg);
@@ -673,7 +673,7 @@ a#appoint {
 
 .girl-image3 {
     position: absolute;
-    background: url(../images/peoples-painting.png) center no-repeat;
+    background: url(../images/peoples-painting.jpg) center no-repeat;
     width: 785rem;
     min-height: 600rem;
     top: 300px;
@@ -712,8 +712,6 @@ input.last:focus {
 .last-buy {
     text-align: left;
 }
-
-
 
 .bg-buy3 {
     position: absolute;
@@ -1133,7 +1131,7 @@ a.tel:before {
     width: 605rem;
     min-height: 385rem;
     overflow: hidden;
-    background: url(../images/park.png) center;
+    background: url(../images/park.jpg) center;
     border-radius: 25rem;
 }
 
@@ -1154,16 +1152,17 @@ a.tel:before {
     }
 
     .girl-image {
-        width: 715rem;
-        min-height: 669rem;
+        width: 706rem;
+        min-height: 670rem;
         top: 200rem;
+        right: 25rem;
     }
 
     .bg1 {
         position: absolute;
         background: url(../images/header-max-width-1580px-bg.svg) no-repeat center;
         top: 190rem;
-        right: 30px;
+        right: 0;
         width: 805rem;
         min-height: 669rem;
     }
