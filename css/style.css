@@ -781,6 +781,7 @@ footer {
     padding-top: 66rem;
     padding-bottom: 63rem;
     max-width: 628rem;
+    transition: 1s;
 }
 
 .footer-menu h2 {
@@ -799,6 +800,10 @@ footer {
     text-decoration: none;
     padding-left: 43rem;
     margin-left: 94px;
+}
+
+.slide-left{
+    left: 350rem;
 }
 
 a.mail {
