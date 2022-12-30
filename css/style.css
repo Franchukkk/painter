@@ -493,7 +493,8 @@ main {
 }
 
 .slider-our-pictures {
-    padding-left: 8%;
+    padding-left: 30rem;
+    padding-right: 30rem;
 }
 
 .scroll::-webkit-scrollbar {
@@ -1133,6 +1134,10 @@ a.tel:before {
     overflow: hidden;
     background: url(../images/park.jpg) center;
     border-radius: 25rem;
+}
+
+.none-a{
+    text-decoration: none;
 }
 
 @media screen and (max-width:1700px) {
